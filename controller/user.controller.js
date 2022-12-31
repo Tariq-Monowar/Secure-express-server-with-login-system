@@ -81,15 +81,9 @@ const updateUsers = async (req, res) => {
 
         // Find the user by ID and update the fields
         const update = await User.findById({ _id: req.params.id })
-        const exEmail = await User.findOne({email: email})
-        if(exEmail){
-            return res.status(404).json({
-                message: "user Email is already valid in another id"
-            })  
-        }else{
-           update.email = email 
-        }
+
         update.name = name
+        update.email = email
         update.phone = Number(phone)
         update.work = work
 
