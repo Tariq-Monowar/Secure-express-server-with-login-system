@@ -17,7 +17,7 @@ This project uses the following dependencies:
 - UUID
 
 # Installation
-1. Clone this repository using git clone https://github.com/your_username/Secure-express-server-with-login-system.git.
+1. Clone this repository using git clone https://github.com/Tariq-Monowar/Secure-express-server-with-login-system 
 2. Navigate to the project directory using cd Secure-express-server-with-login-system.
 3. Install the dependencies using npm install.
 4. Create a .env file in the root directory of the project
