@@ -20,11 +20,7 @@ This project uses the following dependencies:
 1. Clone this repository using git clone https://github.com/your_username/Secure-express-server-with-login-system.git.
 2. Navigate to the project directory using cd Secure-express-server-with-login-system.
 3. Install the dependencies using npm install.
-4. Create a .env file in the root directory of the project and add the following variables:
-5. ```
-  MONGODB_URI=<your MongoDB URI>
-  PORT=<port number>
-  JWT_SECRET=<your JWT secret key>```
+4. Create a .env file in the root directory of the project
 5. Start the server using npm start
 
 # API Routes
