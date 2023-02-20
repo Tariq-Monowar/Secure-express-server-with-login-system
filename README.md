@@ -24,8 +24,8 @@ This project uses the following dependencies:
 5. ```
   MONGODB_URI=<your MongoDB URI>
   PORT=<port number>
-  JWT_SECRET=<your JWT secret key>
-5. Start the server using npm start```
+  JWT_SECRET=<your JWT secret key>```
+5. Start the server using npm start
 
 # API Routes
 - GET /api/users - Get all users
