@@ -1,5 +1,5 @@
 # Secure express server with login system
-
+This project is a secure server built with Node.js and Express that provides basic CRUD (Create, Read, Update, Delete) functionality for user accounts. It includes a login system using hashed passwords to ensure security.
 ## Features
 - User registration with hashed passwords
 - User login with hashed password verification
